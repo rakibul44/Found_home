@@ -17,30 +17,56 @@
       <img src="./images/logo2.png" alt="logo" />
       
     </div>
-    <!-- nav Bar area-->
-     <nav class="navbar navbar-expand-lg navbar-light px-4">
-    <div class="container-fluid">
-    <div class="d-flex gap-2 ms-auto">
-      <!-- Login Dropdown -->
-      <div class="dropdown">
-        <button class="btn btn-outline-primary" type="button">
-          Login
-        </button>
-      </div>
+<!-- nav Bar area-->
+<nav class="navbar navbar-expand-lg navbar-light px-4">
+  <div class="container-fluid">
+    <!-- Brand (optional) -->
+    <a class="navbar-brand" href="./index.html">Home</a>
 
-      <!-- Sign Up Dropdown -->
-      <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle" type="button" id="signupDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-          Sign Up
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="signupDropdown">
-          <li><a class="dropdown-item" href="./pages/Signup.html">Customer</a></li>
-          <li><a class="dropdown-item" href="./pages/Signup1.html">Home Owner</a></li>
-        </ul>
+    <!-- Toggler for mobile view -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <!-- About Us -->
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/About.html">About Us</a>
+        </li>
+        <!-- Services -->
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/Service.html">Services</a>
+        </li>
+      </ul>
+
+      <!-- Login and Sign Up Buttons -->
+      <div class="d-flex gap-2 ms-auto">
+        <!-- Login Button -->
+        <div class="dropdown">
+          <button class="btn btn-outline-primary" type="button">
+            Login
+          </button>
+        </div>
+
+        <!-- Sign Up Dropdown -->
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="signupDropdown" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Sign Up
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="signupDropdown">
+            <li><a class="dropdown-item" href="./pages/Signup.html">Customer</a></li>
+            <li><a class="dropdown-item" href="./pages/Signup1.html">Home Owner</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
 </nav>
+
     
     </header>
     <!-- banner Area -->
